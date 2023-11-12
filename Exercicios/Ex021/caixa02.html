@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: cyan;
+            padding: 4px;;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        article {
+            background-color: lightsteelblue;
+            border-radius: 5px;
+
+        }
+        article > aside {
+            background-color: lightskyblue;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            
+        }
+       article > h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>my sitio</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">linka</a>
+            <a href="">linka</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias do lingao</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, laborum ratione maiores nisi modi mollitia ullam ab quod fugiat, repellendus consectetur rem. Iusto facere exercitationem cumque ipsam laudantium! Rem, natus?</p>
+                <aside>
+                    <p>Artigo escrito por lingao</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo higao</p>
+    </footer>
+    
+</body>
+</html>
